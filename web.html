@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FLipkart.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</style>
+</head>
+<body bgcolor="#F1F3F6">
+	
+<table border="0" width="100%" style="
+background-color: blue;">
+	<tr>
+		<td align="right" width="20%"><img src="logo1.jfif" height="30px;" width="150px;"></td>
+	    <td><input type="text" name="" placeholder="Search for product,brand and more" style="width: 450px;height: 35px;">
+		<input type="button" name="" value="Search" style="width: 120px;height: 35px;">
+
+	    </td>
+	    <td width="10%" align="center">LOGIN</td>
+	    <td width="10%" align="center">MORE</td>
+	    <td width="10%" align="center"><span class="fa fa cart">Cart</span></td>
+</tr>
+</table>
+
+
+
+<table width="100%" border="0" bgcolor="white">
+	<tr>
+		<th width="12.5%">
+			<div class="dropdown">
+
+		<span>Electronis</span>
+		<div class="dropdown-content">
+			<p>Mobiles</p>
+			<p>Laptop</p>
+			<p>Tablet</p>
+			<p>Fridge</p>
+		</div>
+
+		</div>
+
+	</th>
+		<th width="12.5%">
+			<div class="dropdown">
+
+			<span>TVs & Appliances</span>
+
+
+			<div class="dropdown-content">
+			<p>Mobiles</p>
+			<p>Laptop</p>
+			<p>Tablet</p>
+			<p>Fridge</p>
+		</div>
+
+		</div>
+
+
+
+		</th>
+		<th width="12.5%">
+			<div class="dropdown">
+
+		<span>Male</span>
+		<div class="dropdown-content">
+			<p>Mobiles</p>
+			<p>Laptop</p>
+			<p>Tablet</p>
+			<p>Fridge</p>
+		</div>
+
+		</div>
+		</th>
+		<th width="12.5%">
+
+			<div class="dropdown">
+
+		<span>Woman</span>
+		<div class="dropdown-content">
+			<p>Mobiles</p>
+			<p>Laptop</p>
+			<p>Tablet</p>
+			<p>Fridge</p>
+		</div>
+
+		</div>
+
+
+	</th>
+		<th width="12.5%">
+			<div class="dropdown">
+
+		<span>Baby & Kinds</span>
+		<div class="dropdown-content">
+			<p>Mobiles</p>
+			<p>Laptop</p>
+			<p>Tablet</p>
+			<p>Fridge</p>
+		</div>
+
+		</div>
+
+	</th>
+		<th width="12.5%">
+			<div class="dropdown">
+
+		<span>Home & Furniture</span>
+		<div class="dropdown-content">
+			<p>Mobiles</p>
+			<p>Laptop</p>
+			<p>Tablet</p>
+			<p>Fridge</p>
+		</div>
+
+		</div>
+
+	</th>
+		<th width="12.5%">
+			<div class="dropdown">
+		<span>Sports & Books</span>
+		<div class="dropdown-content">
+			<p>Mobiles</p>
+			<p>Laptop</p>
+			<p>Tablet</p>
+			<p>Fridge</p>
+		</div>
+
+		</div>
+	</th>
+		<th width="12.5%">
+			<div class="dropdown">
+		<span>Offer Zone</span>
+		<div class="dropdown-content">
+			<p>Mobiles</p>
+			<p>Laptop</p>
+			<p>Tablet</p>
+			<p>Fridge</p>
+		</div>
+
+		</div>
+
+	</th>
+
+	</tr>
+</table>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+ 
+  <img src="c.jpg" width="100%" height="250px">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="c.jpg" style="width:100%" height="250px">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="c.jpg" style="width:100%" height="250px">
+ 
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+<table border="0" width="100%" >
+	<tr>
+		<td style="font-size: 20px;margin-left: 100px;background-color: white" width="100%" colspan="5">SHOES</td>
+	</tr>
+</table>
+
+<table width="100%" border="0" bgcolor="white" > 
+	<tr style="width: 100%">
+		<td width="20%"><img src="s1.jfif" width="100%" height="260px" ></td>
+		<td width="20%"><img src="s6.jpg" width="100%" height="260px"></td>
+		<td width="20%"><img src="s3.jfif" width="100%" height="100%"></td>
+		<td width="20%"><img src="s4.jfif" width="100%" height="100%"></td>
+		<td width="20%"><img src="s5.jfif" width="100%" height="100%"></td>
+	</tr>
+
+	<tr>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+	</tr>
+
+	
+	<tr style="width: 100%">
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+	</tr>
+	<tr>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+
+	</tr>
+
+	<tr>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+	</tr>
+
+</table>
+<br>
+<table border="0" width="100%" >
+	<tr>
+		<td style="font-size: 20px;margin-left: 100px;background-color: white" width="100%" colspan="5">SHOES</td>
+	</tr>
+</table>
+
+<table width="100%" border="0" bgcolor="white" > 
+	<tr style="width: 100%">
+		<td width="20%"><img src="b1.jfif" width="100%" height="260px"></td>
+		<td width="20%"><img src="b2.jfif" width="100%" height="260px"></td>
+		<td width="20%"><img src="b3.jfif" width="100%" height="260px"></td>
+		<td width="20%"><img src="b4.jfif" width="100%" height="100%"></td>
+		<td width="20%"><img src="b5.jfif" width="100%" height="100%"></td>
+	</tr>
+
+	<tr>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+	</tr>
+	<tr style="width: 100%">
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+	</tr>
+	<tr>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+
+	</tr>
+	<tr>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+	</tr>
+</table>
+<br>
+<table border="0" width="100%" >
+	<tr>
+		<td style="font-size: 20px;margin-left: 100px;background-color: white" width="100%" colspan="5">SHOES</td>
+	</tr>
+</table>
+
+<table width="100%" border="0" bgcolor="white" > 
+	<tr style="width: 100%">
+		<td width="20%"><img src="a1.jpg" width="100%" height="100%"></td>
+		<td width="20%"><img src="a2.jpg" width="100%" height="100%"></td>
+		<td width="20%"><img src="a3.jpg" width="100%" height="100%"></td>
+		<td width="20%"><img src="a4.jpg" width="100%" height="100%"></td>
+		<td width="20%"><img src="a5.jpg" width="100%" height="100%"></td>
+	</tr>
+	<tr>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+		<th>Price:<font color="green">599/-</font></th>
+	</tr>
+	<tr style="width: 100%">
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+		<th>ASIAN</th>
+	</tr>
+	<tr>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+		<th>Oxygen-01 Running Shoes for Boys</th>
+
+	</tr>
+	<tr>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+		</th>
+		<th>
+			<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+		</th>
+	</tr>
+</table>
+<br><br>
+
+
+<table border="3" width="100%" bgcolor="#2874F0">
+	<tr>
+	<td bgcolor="black"><font color="white"><b>About Us</b></font></td>
+	<td bgcolor="black"><font color="white"><b>Follow Us</b></font></td>
+	<td bgcolor="black"><font color="white"><b>Help</b></font></td>
+	<td bgcolor="black"><font color="white"><b>Search</b></font></td>
+</tr>
+<tr>
+	<td width="25%
+	">
+		<ul>
+			<li>Contact Us</li>
+	        <li>About Us</li>
+	        <li>Careers</li>
+	        <li>Stories</li>
+        </ul>
+    </td>
+    <td width="25%">
+		<ul>
+			<li>facebook</li>
+	        <li>Twitter</li>
+	        <li>Instagram</li>
+	        <li>Youtube</li>
+        </ul>
+    </td>
+    <td width="25%">
+		<ul>
+			<li>Payments</li>
+	        <li>Shipping</li>
+	        <li>Cancallation & Returns</li>
+	        <li>FAQ</li>
+        </ul>
+    </td>
+    <td style="padding-left: 50px" width="25%"><input type="text" name="" placeholder="Search">
+    	<input type="button" name="" value="Search">
+
+    </td>
+	
+</tr>
+</table>
+
+
+
+
+
+</body>
+</html>
